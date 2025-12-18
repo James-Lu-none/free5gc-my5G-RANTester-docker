@@ -22,7 +22,7 @@ services:
       - 5001:5001
     command: -s
     networks:
-      dn-net:
+      free5gc-compose_dn-net:
         ipv4_address: 10.60.0.100
 
 networks:
