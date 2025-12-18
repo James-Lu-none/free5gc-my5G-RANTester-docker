@@ -29,5 +29,5 @@ networks:
   default:
     external:
       name: "free5gc-compose_default"
-  dn-net:
+  free5gc-compose_dn-net:
     external: true
