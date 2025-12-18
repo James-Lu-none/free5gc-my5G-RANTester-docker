@@ -1,4 +1,4 @@
-FROM golang:1.14.4-stretch
+FROM golang:1.20-bookworm
 
 WORKDIR /workspace
 
