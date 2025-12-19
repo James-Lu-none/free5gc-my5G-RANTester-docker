@@ -22,12 +22,11 @@ services:
       - 5001:5001
     command: -s
     networks:
-      free5gc-compose_dn-net:
-        ipv4_address: 10.60.0.100
+      default:
+        aliases:
+          - iperf.free5gc.org
 
 networks:
   default:
     external:
       name: "free5gc-compose_default"
-  free5gc-compose_dn-net:
-    external: true
